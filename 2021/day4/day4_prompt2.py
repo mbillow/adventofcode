@@ -1,4 +1,4 @@
-# Advent of Code Day 4 - Prompt 1
+# Advent of Code Day 4 - Prompt 2
 # Marc Billow
 
 import re
@@ -65,9 +65,4 @@ for number in drawn_numbers:
                             print(f"Final Winning Score: {unmarked_sum * number}")
                             exit()
 
-
-for board_number, board in enumerate(boards):
-    print(f"\n Board {board_number}")
-    for row in board:
-        print(f"  {row}")
 
